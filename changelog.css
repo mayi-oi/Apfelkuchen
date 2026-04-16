@@ -1,0 +1,288 @@
+/* >> Erstelltler von mayi.-oi!
+      Datum: April.13.2026 <<*/
+
+::-webkit-scrollbar {
+      display: none;
+}
+
+body {
+      background-color: #131920;
+}
+
+.Hauptdiv {
+      margin: auto;
+      width: 70%;
+      cursor: default;
+      text-align: left;
+}
+
+.info {
+      display: flex;
+      gap: 12px;
+}
+
+.info a {
+      color: #ffffff;
+      font-family: Google-sans;
+      font-size: 17px;
+      text-decoration: none;
+
+      transition: all 0.2s ease;
+}
+
+.info a:hover {
+      color: #78a1f9;
+}
+
+.Haupt-Changelog {
+      background-color: #0d0d0d;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      padding: 12px;
+
+      color: #ffffff;
+      font-family: Google-sans;
+      font-weight: 600;
+}
+
+.Haupt-Changelog img {
+      width: 42px;
+}
+
+.Liste {
+      background-color: #1c2438;
+      padding: 6px;
+
+      color: #80a2ff;
+      font-family: Google-sans;
+      font-weight: 400;
+      text-decoration: underline;
+}
+
+.Liste p {
+      padding-left: 28px;
+}
+
+.name-button {
+      display: flex;
+      gap: 12px;
+      background-color: #101727;
+      padding: 12px;
+}
+
+.haupt-log {
+      width: 50%;
+      border: solid 2px #92baff;
+      background-color: #172138;
+      border-radius: 18px;
+      padding: 12px;
+
+      color: #ffffff;
+      font-family: Google-sans;
+}
+
+.haupt-log h3 {
+      font-weight: 400;
+      font-size: 16px;
+}
+
+.haupt-log h2 {
+      font-size: 28px;
+}
+
+.web-log {
+      width: 50%;
+      border: solid 2px transparent;
+      background-color: #172138;
+      border-radius: 18px;
+      padding: 12px;
+
+      color: #ffffff;
+      font-family: Google-sans;
+
+      cursor: pointer;
+      transition: all 0.5s ease;
+}
+
+.web-log:hover {
+      width: 100%;
+      border: solid 2px #ffffff;
+      background-color: #443d92;
+      transition: all 0.3s ease;
+}
+
+.web-log h3 {
+      font-weight: 400;
+      font-size: 16px;
+}
+
+.web-log h2 {
+      font-size: 28px;
+}
+
+.Log {
+      background-color: #1c2438;
+      padding: 6px;
+      color: #ffffff;
+      font-family: Google-sans;
+}
+
+.Log h2 {
+      padding-left: 8px;
+      text-decoration: underline;
+}
+
+.button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+}
+
+.Log button {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+
+      background-color: #769fff;
+      color: #ffffff;
+      font-family: Monterrat;
+      font-weight: 500;
+      font-size: 16px;
+
+      cursor: pointer;
+      transition: all 0.42s ease;
+}
+
+.Log button:hover {
+      scale: 1.05;
+      background-color: #5188ff;
+}
+
+.Footer {
+      background-color: #000000;
+      border-bottom-left-radius: 18px;
+      border-bottom-right-radius: 18px;
+      padding: 28px;
+      text-align: left;
+
+      color: #ffffff;
+      font-family: Google-sans;
+      font-size: 18px;
+      font-weight: 500;
+}
+
+.cool-links {
+      display: flex;
+      gap: 8px;
+
+}
+
+.yt {
+      opacity: 0.5;
+      transition: all 0.2s ease;
+      cursor: pointer;
+}
+
+.yt:hover {
+      opacity: 1;
+}
+
+.git {
+      opacity: 0.5;
+      transition: all 0.2s ease;
+      cursor: pointer;
+}
+
+.git:hover {
+      opacity: 1;
+}
+
+/*  Font biblotik 9000 lol*/
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-Regular.ttf);
+      font-weight: 400;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-Medium.ttf);
+      font-weight: 500;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-SemiBold.ttf);
+      font-weight: 600;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-Bold.ttf);
+      font-weight: 700;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Montserrat/static/Montserrat-Regular.ttf);
+      font-weight: 400;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Montserrat/static/Montserrat-Medium.ttf);
+      font-weight: 500;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-SemiBold.ttf);
+      font-weight: 600;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Montserrat/static/Montserrat-Bold.ttf);
+      font-weight: 700;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Jetbrains;
+      src: url(Res/Font/JetBrains_Mono/static/JetBrainsMono-SemiBold.ttf);
+      font-weight: 600;
+      font-display: swap;
+}
+
+/*  Moblien freundlich design lol*/
+@media (max-width: 768px) {
+
+      .info {
+            align-self: center;
+            justify-content: center;
+      }
+
+      .Hauptdiv {
+            width: 100%;
+      }
+
+      .haupt-log h2 {
+            font-size: 22px;
+      }
+
+      .haupt-log h3 {
+            font-size: 16px;
+      }
+
+      .web-log h3 {
+            font-size: 16px;
+      }
+}

@@ -1,0 +1,286 @@
+/* >> Erstelltler von mayi.-oi!
+      Datum: April.11.2026 <<*/
+
+::-webkit-scrollbar {
+      display: none;
+}
+
+body {
+      background-color: #131920;
+}
+
+.Hauptdiv {
+      margin: auto;
+      width: 70%;
+      cursor: default;
+      text-align: left;
+}
+
+.info {
+      display: flex;
+      gap: 12px;
+}
+
+.info a {
+      color: #ffffff;
+      font-family: Google-sans;
+      font-size: 17px;
+      text-decoration: none;
+
+      transition: all 0.2s ease;
+}
+
+.info a:hover {
+      color: #78a1f9;
+}
+
+.Title {
+      background-image: url(Res/Bild/Hinterground/shubham-dhage-2sjFIy8XVsE-unsplash.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      border-radius: 14px;
+      padding: 185px;
+      line-height: 0.2;
+}
+
+.Title h2 {
+      color: #000000;
+      font-family: Google-sans;
+      font-weight: 500;
+      font-size: 48px;
+}
+
+.Title p {
+      font-family: Google-sans;
+      font-size: 18px;
+}
+
+.haupt-button {
+      display: flex;
+      gap: 8px;
+}
+
+.download {
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+
+      background-color: #769fff;
+      color: #ffffff;
+      font-family: Monterrat;
+      font-weight: 500;
+      font-size: 16px;
+
+      cursor: pointer;
+      transition: all 0.42s ease;
+}
+
+.download:hover {
+      scale: 1.05;
+      background-color: #5188ff;
+}
+
+.log {
+      padding: 14px;
+      border: solid 2px #48619c;
+      border-radius: 8px;
+
+      background-color: transparent;
+      color: #000000;
+      font-family: Monterrat;
+      font-weight: 500;
+      font-size: 16px;
+
+      cursor: pointer;
+      transition: all 0.42s ease;
+}
+
+.log:hover {
+      scale: 1.05;
+      color: #ffffff;
+      background-color: #48619c;
+}
+
+.Haupt-blog {
+      width: 100%;
+      height: 240px;
+      overflow: visible;
+}
+
+.Haupt-blog img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+
+      border-radius: 12px;
+}
+
+.Haupt-blog-text {
+      background-color: #434343;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px;
+
+      padding: 14px;
+      line-height: 0.3;
+      margin-top: -14px;
+
+      cursor: pointer;
+      transition: all 0.45s ease;
+}
+
+.Haupt-blog-text:hover {
+      background-color: #2e2e2e;
+}
+
+.Haupt-blog-text h2 {
+      color: #ffffff;
+      font-family: Google-sans;
+      font-weight: 500;
+      text-decoration: underline;
+}
+
+.Footer {
+      background-color: #000000;
+      padding: 28px;
+      text-align: left;
+
+      color: #ffffff;
+      font-family: Google-sans;
+      font-size: 18px;
+      font-weight: 500;
+}
+
+.cool-links {
+      display: flex;
+      gap: 8px;
+
+}
+
+.yt {
+      opacity: 0.5;
+      transition: all 0.2s ease;
+      cursor: pointer;
+}
+
+.yt:hover {
+      opacity: 1;
+}
+
+.git {
+      opacity: 0.5;
+      transition: all 0.2s ease;
+      cursor: pointer;
+}
+
+.git:hover {
+      opacity: 1;
+}
+
+/*  Font biblotik 9000 lol*/
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-Regular.ttf);
+      font-weight: 400;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-Medium.ttf);
+      font-weight: 500;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-SemiBold.ttf);
+      font-weight: 600;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Google-sans;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-Regular.ttf);
+      font-weight: 700;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Montserrat/static/Montserrat-Regular.ttf);
+      font-weight: 400;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Montserrat/static/Montserrat-Medium.ttf);
+      font-weight: 500;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Google_Sans/static/GoogleSans-SemiBold.ttf);
+      font-weight: 600;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: Monterrat;
+      src: url(Res/Font/Montserrat/static/Montserrat-Bold.ttf);
+      font-weight: 700;
+      font-display: swap;
+}
+
+/*  Moblien freundlich design lol*/
+@media (max-width: 768px) {
+      .info {
+            align-self: center;
+            justify-content: center;
+      }
+
+      .Hauptdiv {
+            width: 100%;
+      }
+
+      .Title {
+            text-align: center;
+            padding: 130px;
+            line-height: 1;
+      }
+
+      .haupt-button {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+      }
+
+      .download {
+            font-size: 16px;
+      }
+
+      .log {
+            color: #ffffff;
+      }
+
+      .Title h2 {
+            scale: 1.5;
+            line-height: 0.8;
+            font-size: 28px;
+      }
+
+      .Haupt-blog img {
+            height: 160px;
+      }
+
+      .Haupt-blog-text {
+            margin-top: -90px;
+      }
+
+      .Haupt-blog-text h2 {
+            font-size: 20px;
+      }
+}
